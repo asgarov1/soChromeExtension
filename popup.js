@@ -18,7 +18,7 @@ function copyText(text) {
 function showToasterConfirmation() {
     let toast = document.getElementById('liveToast');
     toast.classList.add('show')
-    setTimeout(() => toast.classList.remove('show'), 700);
+    // setTimeout(() => toast.classList.remove('show'), 700);
 }
 
 // Answers

@@ -1,15 +1,13 @@
 {
-    "manifest_version": 2,
-  
-    "name": "SO plugin",
-    "description": "This extension has commonly used SO answers",
-    "version": "1.0",
-  
-    "browser_action": {
-     "default_icon": "icon.png",
-     "default_popup": "popup.html"
-    },
-    "permissions": [
-     "activeTab"
-     ]
-  }
+  "manifest_version": 2,
+  "name": "SO plugin",
+  "description": "This extension has commonly used SO answers",
+  "version": "1.0",
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab"
+  ]
+}

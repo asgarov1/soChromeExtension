@@ -17,6 +17,14 @@
             font-size: 0.5rem;
             white-space: nowrap;
         }
+
+        .toast-body {
+            font-size: 0.5rem;
+        }
+
+        .toast-container {
+            width: 100px;
+        }
     </style>
 </head>
 <body>
@@ -33,7 +41,7 @@
 </div>
 </div>
 
-<div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
+<div class="toast-container position-fixed bottom-0 end-0 p-3" style="z-index: 11;">
     <div id="liveToast" class="toast align-items-center text-white bg-success border-0" role="alert"
          aria-live="assertive" aria-atomic="true">
         <div class="d-flex">
