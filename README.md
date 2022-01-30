@@ -1,6 +1,6 @@
 # StackOverflow Comments ChromeExtension 
 
-## Use:
+## Purpose:
 To provide ready to copy/paste comments for StackOverflow. Often there are questions from newbies who don’t know how to ask questions on the site, so it would be nice to have a nice expanded comment that can help them ask better questions:)
 
 e.g. To answer a assigment/homework dump question we can use a comment like:
