@@ -6,15 +6,14 @@
           integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
     <script src="popup.js"></script>
-
     <style>
-        h6 {
+        #heading {
             color: #F48125;
             text-align: center;
         }
 
         .list-group a {
-            font-size: 0.5rem;
+            font-size: 0.8rem;
             white-space: nowrap;
         }
 
@@ -30,13 +29,8 @@
 <body>
 <div class="pb-4 bg-light rounded-3">
 <div class="container container-fluid py-5">
-    <h6>StackOverflow answers</h6>
-    <div class="list-group">
-        <a class="list-group-item list-group-item-action" id="code_writing_service" href="#">Not a code writing
-            service</a>
-        <a class="mb-1 list-group-item list-group-item-action" id="bad_formatting" href="#">Bad formatting</a>
-        <a class="list-group-item-sm list-group-item list-group-item-action" id="should_accept_answer" href="#">Should
-            accept answer</a>
+    <h4 id="heading">StackOverflow answers</h4>
+    <div class="list-group" id="answers-div">
     </div>
 </div>
 </div>
