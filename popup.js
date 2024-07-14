@@ -9,6 +9,7 @@ const answers = [
     { id: 'What_Is_Best_Way_Questions', text: 'in general in Software Development there is no *best* way and SO frawns upon such questions - see [this dicussion](https://meta.stackoverflow.com/questions/296542/are-is-it-a-good-practice-questions-off-topic-or-opinion-based).'},
     { id: 'Set_Debug_Level', text: 'Please set logging level to debug with `logging.level.org.springframework.security=DEBUG` so that you see the error. After that paste the error, correctly formatted, into question'},
     { id: 'Software_Recommendations', text: 'Off-topic here. Sister site: [softwarerecs.stackexchange.com](https://softwarerecs.stackexchange.com/)'},
+    { id: 'Code_Optimization', text: 'Off-topic here. See [here](https://meta.stackoverflow.com/questions/261841/can-i-post-questions-about-optimizing-code-on-stack-overflow)'},
 ]
 
 document.addEventListener(DOM_CONTENT_LOADED, function () {
