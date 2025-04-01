@@ -10,7 +10,9 @@ const answers = [
     { id: 'Set_Debug_Level', text: 'Please set logging level to debug with `logging.level.org.springframework.security=DEBUG` so that you see the error. After that paste the error, correctly formatted, into question'},
     { id: 'Software_Recommendations', text: 'Off-topic here. Sister site: [softwarerecs.stackexchange.com](https://softwarerecs.stackexchange.com/)'},
     { id: 'Code_Optimization', text: 'Off-topic here. See [here](https://meta.stackoverflow.com/questions/261841/can-i-post-questions-about-optimizing-code-on-stack-overflow)'},
-    { id: 'Authentication_Manager_SO', text: 'Off-topic here. it is most likely the way you have defined your AuthenticationManager bean - see my answer [here](https://stackoverflow.com/questions/78775839/i-cant-auto-login-user-after-registration-in-spring-boot/78776321#78776321)'}
+    { id: 'Authentication_Manager_SO', text: 'Off-topic here. it is most likely the way you have defined your AuthenticationManager bean - see my answer [here](https://stackoverflow.com/questions/78775839/i-cant-auto-login-user-after-registration-in-spring-boot/78776321#78776321)'},
+    { id: 'CORS_possible_duplicate', text: 'Possible duplicate - see [here](https://stackoverflow.com/questions/78666949/spring-boot-restful-service-and-cors-problem/78666972#78666972)'},
+    { id: 'CSRF_possible_duplicate', text: 'Possible duplicate - see [here](https://stackoverflow.com/questions/78719300/spring-boot-postmapping-endpoint-not-hit-while-getmapping-works-after-adding-s/78719647#78719647)'},
 ]
 
 document.addEventListener(DOM_CONTENT_LOADED, function () {
